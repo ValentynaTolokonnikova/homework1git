@@ -17,7 +17,7 @@ elif operation == "/":
     if second_number != 0:
         print(first_number/second_number)
     else:
-        print("ZeroDivisionError")
+        print("Zero Division Error")
 
 
 # Task_2
