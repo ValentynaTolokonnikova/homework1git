@@ -1,44 +1,51 @@
-# Task_1
+# # Task_1
+#
+#
+# print("Calculator")
+#
+# first_number = int(input("type first number"))
+# second_number = int(input("type second number"))
+# operation = input("Select operation:+,-,*,/")
+#
+# if operation == "+":
+#     print(first_number+second_number),
+# elif operation == "-":
+#     print(first_number-second_number),
+# elif operation == "*":
+#     print(first_number*second_number),
+# elif operation == "/":
+#     if second_number != 0:
+#         print(first_number/second_number)
+#     else:
+#         print("Zero Division Error")
+#
+#
+# # Task_2
+#
+# value_list_1 = [12, 3, 4, 10]
+# new_list_1 = value_list_1[-1:] + value_list_1[0:3]
+# print(new_list_1)
+#
+# value_list_2 = [1]
+# print(value_list_2[0:1])   # здесь вызывается список, как требуется в задании - [1]
+# #print(value_list_2[0])   # здесь вызывается элемент списка, поэтому - 1
+#
+# value_list_3 = []
+# print(value_list_3)
+#
+# value_list_4 = [12, 3, 4, 10, 8]
+# new_list_4 = value_list_4[-1:] + value_list_4[0:4]
+# print(new_list_4)
 
-
-print("Calculator")
-
-first_number = int(input("type first number"))
-second_number = int(input("type second number"))
-operation = input("Select operation:+,-,*,/")
-
-if operation == "+":
-    print(first_number+second_number),
-elif operation == "-":
-    print(first_number-second_number),
-elif operation == "*":
-    print(first_number*second_number),
-elif operation == "/":
-    if second_number != 0:
-        print(first_number/second_number)
-    else:
-        print("Zero Division Error")
-
-
-# Task_2
+#*******************
 
 value_list_1 = [12, 3, 4, 10]
-new_list_1 = value_list_1[-1:] + value_list_1[0:3]
+new_list_1 = value_list_1[-1:] + value_list_1[0:-1]
 print(new_list_1)
 
-value_list_2 = [1]
-print(value_list_2[0:1])   # здесь вызывается список, как требуется в задании - [1]
-#print(value_list_2[0])   # здесь вызывается элемент списка, поэтому - 1
-
-value_list_3 = []
-print(value_list_3)
-
 value_list_4 = [12, 3, 4, 10, 8]
-new_list_4 = value_list_4[-1:] + value_list_4[0:4]
+new_list_4 = value_list_4[-1:] + value_list_4[0:-1]
 print(new_list_4)
-
-
-
 
 
 
