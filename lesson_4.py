@@ -8,28 +8,6 @@ for num in value_list_1:
 print(value_list_1)
 
 
-value_list_2 = [0]
-for num in value_list_2:
-    if num == 0:
-        value_list_2.remove(0)
-        value_list_2.append(0)
-print(value_list_2)
-
-
-value_list_3 = [1, 0, 13, 0, 0, 0, 5]
-for num in value_list_3:
-    if num == 0:
-        value_list_3.remove(0)
-        value_list_3.append(0)
-print(value_list_3)
-
-
-value_list_4 = [9, 0, 7, 31, 0, 45, 0, 45, 0, 45, 0, 0, 96, 0]
-for num in value_list_4:
-    if num == 0:
-        value_list_4.remove(0)
-        value_list_4.append(0)
-print(value_list_4)
 
 
 # Task 4.2
