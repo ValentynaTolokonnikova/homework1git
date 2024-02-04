@@ -1,35 +1,47 @@
 # # Task_1
-#
+
 #
 # print("Calculator")
 #
-# first_number = int(input("type first number"))
-# second_number = int(input("type second number"))
+# first_number = float(input("type first number:"))
 # operation = input("Select operation:+,-,*,/")
+# second_number = float(input("type second number:"))
+#
+# result = 0
 #
 # if operation == "+":
-#     print(first_number+second_number),
+#     result = first_number+second_number
 # elif operation == "-":
-#     print(first_number-second_number),
+#     result = first_number-second_number
 # elif operation == "*":
-#     print(first_number*second_number),
+#     result = first_number*second_number
+# elif operation == "/" and second_number == 0:
+#     result = "Zero Division Error"
 # elif operation == "/":
-#     if second_number != 0:
-#         print(first_number/second_number)
-#     else:
-#         print("Zero Division Error")
+#     result = first_number / second_number
+#
+# print(result)                                     # одна точка входа и одна точка выхода, поэтому один принт, после всех
+
+
+
+
 #
 #
 # # Task_2
 #
 # value_list_1 = [12, 3, 4, 10]
-# new_list_1 = value_list_1[-1:] + value_list_1[0:3]
-# print(new_list_1)
+# new_list_1 = value_list_1[-1:] + value_list_1[0:3] # Так як ти не знаєш скільки елементів всього,
+# print(new_list_1)                                  # доводиться перестворювати і переписувати умову
+#                                                    # (ручками вписувати, то 3 то 4)
+
+value_list_1 = [12, 3, 4, 10]
+new_list_1 = value_list_1[-1:] + value_list_1[0:-1]
+print(new_list_1)
 #
 # value_list_2 = [1]
 # print(value_list_2[0:1])   # здесь вызывается список, как требуется в задании - [1]
-# #print(value_list_2[0])   # здесь вызывается элемент списка, поэтому - 1
-#
+# print(value_list_2[0])   # здесь вызывается элемент списка, поэтому - 0 (номер индекса элемента)
+# #
 # value_list_3 = []
 # print(value_list_3)
 #
@@ -37,69 +49,51 @@
 # new_list_4 = value_list_4[-1:] + value_list_4[0:4]
 # print(new_list_4)
 
-#*******************
-
-value_list_1 = [12, 3, 4, 10]
-new_list_1 = value_list_1[-1:] + value_list_1[0:-1]
-print(new_list_1)
-
-value_list_4 = [12, 3, 4, 10, 8]
-new_list_4 = value_list_4[-1:] + value_list_4[0:-1]
-print(new_list_4)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# #*******************
 #
-# first_number = int(input("type first number"))
-# print(first_number)
-# input("type '+' sign")
-# second_number = int(input("type second number"))
-# sum = first_number+second_number
-# input("type '=' sign")
-# print(f"Sum is {sum}")
+# value_list_1 = [12, 3, 4, 10]
+# new_list_1 = value_list_1[-1:] + value_list_1[0:-1]
+# print(new_list_1)
+#
+# value_list_4 = [12, 3, 4, 10, 8]
+# new_list_4 = value_list_4[-1:] + value_list_4[0:-1]
+# print(new_list_4)
 #
 #
-# first_number = int(input("type first number"))
-# print(first_number)
-# input("type '-' sign")
-# second_number = int(input("type second number"))
-# print(second_number)
-# diff = first_number-second_number
-# input("type '=' sign")
+
+
+# first_symbol = float(input("1st num:  "))
+# operator = input("operator:  ")
+# second_symbol = float(input("2nd num:  "))
 #
-# print(f" Difference is {diff}")
+# # result = 0
 #
-# first_number = int(input("type first number"))
-# print(first_number)
-# input("type '*' sign")
-# second_number = int(input("type second number"))
-# print(second_number)
-# mult = first_number*second_number
-# input("type '=' sign")
-#
-# print(f" Product is {mult}")
-#
-# first_number = int(input("type first number"))
-# print(first_number)
-# input("type '/' sign")
-#
-# second_number = int(input("type second number"))
-# div = first_number/second_number
-# if second_number != 0:
-#     print(first_number/second_number)
+# # if operator not in "+-*/" or len(operator) != 1:
+# if operator not in ["+", "-", "*", "/"]:
+#     result = "ERROR - something goes wrong"
+# elif operator == "+":
+#     result = first_symbol + second_symbol
+# elif operator == "-":
+#     result = first_symbol - second_symbol
+# elif operator == "*":
+#     result = first_symbol * second_symbol
+# elif operator == "/" and second_symbol == 0:
+#     result = "ERROR - can't divide by zero"
+# elif operator == "/":
+#     result = first_symbol / second_symbol
 # else:
-#     print("ZeroDivisionError")
+#     result = "hhhhhh"
+#
+# print(result)
+
+
+
+
+
+
+
+
+
 
 
 
