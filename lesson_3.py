@@ -1,26 +1,26 @@
 # # Task_1
 
-#
-# print("Calculator")
-#
-# first_number = float(input("type first number:"))
-# operation = input("Select operation:+,-,*,/")
-# second_number = float(input("type second number:"))
-#
-# result = 0
-#
-# if operation == "+":
-#     result = first_number+second_number
-# elif operation == "-":
-#     result = first_number-second_number
-# elif operation == "*":
-#     result = first_number*second_number
-# elif operation == "/" and second_number == 0:
-#     result = "Zero Division Error"
-# elif operation == "/":
-#     result = first_number / second_number
-#
-# print(result)                                     # одна точка входа и одна точка выхода, поэтому один принт, после всех
+
+print("Calculator")
+
+first_number = float(input("type first number:"))
+operation = input("Select operation:+,-,*,/")
+second_number = float(input("type second number:"))
+
+result = 0
+
+if operation == "+":
+    result = first_number+second_number
+elif operation == "-":
+    result = first_number-second_number
+elif operation == "*":
+    result = first_number*second_number
+elif operation == "/" and second_number == 0:
+    result = "Zero Division Error"
+elif operation == "/":
+    result = first_number / second_number
+
+print(result)                                     # одна точка входа и одна точка выхода, поэтому один принт, после всех
 
 
 
